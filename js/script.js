@@ -67,22 +67,6 @@ function generatePassword() {
     array_of_functions.push(getRandomNumber())
     password = password + getRandomNumber();
   }
-  
-  // at tis point we have guaranteed one character from ecvery category choosen by the user
-  // now we must add th reemaining characters by soomehhow randmmly choosing each one
-  // at thhis point, we hve an array oof functions that generate random characters 
-  // only iwthin the categoories set by the user
-  
-  
-  // write the line of code that gets a random character using the array of functions
-  // try this 3 times and see that it works
-  // THEN figure out how to do this a dynamic number of timmes
-  // hint hint it's the reaammining nummber of characters you need to fill
-  // hint hint somoe sort of for loop\
-  
-  
-  // I have an x long password already. For the remainder of the user input length,
-  // I need to cycle from user.input to password.length until password.length = user.input
 
   if (password.length < length) {
     for (var i=password.length; i < length; i++) {
